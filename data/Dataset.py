@@ -32,6 +32,17 @@ class Dataset(pd.DataFrame):
     def _constructor(self):
         return Dataset
 
+    def save_dump(self, filename: str = None):
+        if filename is None:
+            filename = 'dump_cache.npz'
+        np.savez_compressed(filename, cache=self._cache)
+
+    def load_dump(self, filename: str = None):
+        if filename is None:
+            filename = 'dump_cache.npz'
+        data = np.load(filename)
+        self._cache = data['cache']
+
     def __init__(self, data=None, lateralize=False, reduced=False, n=100, *args, **kwargs):
         if data is None:
             base = os.path.dirname(os.path.abspath(__file__))
