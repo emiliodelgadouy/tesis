@@ -40,7 +40,7 @@ class Dataset(pd.DataFrame):
     def load_dump(self, filename: str = None):
         if filename is None:
             filename = 'dump_cache.npz'
-        data = np.load(filename)
+        data = np.load(filename, allow_pickle=True)
         self._cache = data['cache']
 
     def __init__(self, data=None, lateralize=False, reduced=False, n=100, *args, **kwargs):
