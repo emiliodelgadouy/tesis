@@ -4,4 +4,4 @@ si hago el render pierdo el valor literal de path?
 agregar funcion de descripcion del dataset, plot
 
 
-gsutil cp gs://TU_BUCKET/RUTA/DEL_ARCHIVO ./  
+gsutil -o "GSUtil:parallel_composite_upload_threshold=150M" -m cp ./dump_cache_reduced_half.npz gs://
