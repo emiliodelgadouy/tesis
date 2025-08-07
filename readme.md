@@ -5,3 +5,7 @@ agregar funcion de descripcion del dataset, plot
 
 
 gsutil -o "GSUtil:parallel_composite_upload_threshold=150M" -m cp ./dump_cache_reduced_half.npz gs://
+
+
+watch -n1 nvidia-smi
+python3 -m pip install 'tensorflow[and-cuda]'
