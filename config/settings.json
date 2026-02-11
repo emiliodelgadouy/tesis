@@ -1,0 +1,188 @@
+{
+  "path": "/home/emilio/.cache/kagglehub/datasets/paultimothymooney/chest-xray-pneumonia/versions/2",
+  "environment": {
+    "python_version": "3.12.3",
+    "platform": "Linux-6.14.0-37-generic-x86_64-with-glibc2.39",
+    "packages": {
+      "tensorflow": "2.20.0",
+      "kagglehub": "0.4.3",
+      "ipywidgets": "8.1.8",
+      "jupyterlab": "4.5.3",
+      "tqdm": "4.67.3"
+    },
+    "tensorflow_build": {
+      "cuda_version": "12.5.1",
+      "cudnn_version": "9",
+      "gpus_detected": [
+        "/physical_device:GPU:0"
+      ]
+    },
+    "hardware": {
+      "cpu_count": 16,
+      "total_ram_gb": 62.68,
+      "disk_total_gb": 382.51,
+      "disk_free_gb": 62.24,
+      "repo_root": "/home/emilio/Desktop/TESIS",
+      "nvidia_smi_available": true
+    }
+  },
+  "data_root": "/home/emilio/Desktop/TESIS/data",
+  "paths": {
+    "raw_data_dir": "/home/emilio/Desktop/TESIS/data/raw",
+    "processed_data_dir": "/home/emilio/Desktop/TESIS/data/processed",
+    "models_dir": "/home/emilio/Desktop/TESIS/models"
+  },
+  "data": {
+    "raw_dataset_source": "/home/emilio/.cache/kagglehub/datasets/paultimothymooney/chest-xray-pneumonia/versions/2",
+    "raw_dataset_path": "/home/emilio/Desktop/TESIS/data/raw",
+    "audit_summary": {
+      "dataset_root": "/home/emilio/Desktop/TESIS/data/raw/chest_xray",
+      "counts": {
+        "train": {
+          "NORMAL": 1341,
+          "PNEUMONIA": 3875
+        },
+        "val": {
+          "NORMAL": 8,
+          "PNEUMONIA": 8
+        },
+        "test": {
+          "NORMAL": 234,
+          "PNEUMONIA": 390
+        }
+      },
+      "totals_per_split": {
+        "train": 5216,
+        "val": 16,
+        "test": 624
+      },
+      "grand_total": 5856,
+      "extensions": {
+        ".jpeg": 2000
+      },
+      "unique_dimensions_sample": [
+        [
+          399,
+          164
+        ],
+        [
+          445,
+          199
+        ],
+        [
+          446,
+          232
+        ],
+        [
+          450,
+          250
+        ],
+        [
+          480,
+          167
+        ],
+        [
+          494,
+          151
+        ],
+        [
+          494,
+          196
+        ],
+        [
+          502,
+          307
+        ],
+        [
+          507,
+          244
+        ],
+        [
+          508,
+          218
+        ],
+        [
+          645,
+          329
+        ],
+        [
+          663,
+          431
+        ],
+        [
+          664,
+          360
+        ],
+        [
+          667,
+          322
+        ],
+        [
+          671,
+          393
+        ],
+        [
+          712,
+          439
+        ],
+        [
+          713,
+          353
+        ],
+        [
+          728,
+          392
+        ],
+        [
+          736,
+          480
+        ],
+        [
+          738,
+          543
+        ],
+        [
+          741,
+          421
+        ],
+        [
+          752,
+          592
+        ],
+        [
+          765,
+          594
+        ],
+        [
+          766,
+          470
+        ],
+        [
+          768,
+          552
+        ],
+        [
+          776,
+          488
+        ],
+        [
+          778,
+          631
+        ],
+        [
+          784,
+          496
+        ],
+        [
+          795,
+          491
+        ],
+        [
+          800,
+          552
+        ]
+      ],
+      "corrupt_count": 0
+    }
+  }
+}

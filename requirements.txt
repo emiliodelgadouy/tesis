@@ -1,0 +1,7 @@
+tensorflow[and-cuda]
+kagglehub
+ipywidgets
+jupyterlab
+jupyterlab-widgets
+tqdm
+matplotlib
